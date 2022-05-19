@@ -1,0 +1,72 @@
+:root{
+    --main-title-color: #FFFFFF;
+    --second-title-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --main-background-color: #2F303A;
+    --second-background-color: #E5E5E5;
+    --third-background-color:#F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* -----------------------------HEADER------------------------------ */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-accent {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+}
+
+.header-link:hover,
+.header-link:focus  {
+    color: var(--accent-color);
+}
+
+.header-mail, .header-tell {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+}
+
+.header-mail:hover,
+.header-tell:hover,
+.header-mail:focus,
+.header-tell:focus {
+    color: var(--accent-color);
+}
+
+/* -----------------------------HERO------------------------------ */
+
+
+
+
+/* -----------------------------FOOTER------------------------------ */
