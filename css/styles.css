@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--second-background-color);
 }
 
 .list {
@@ -97,6 +98,7 @@ body {
     color: var(--main-title-color);
     background-color: var(--accent-color);
 }
+
 
 
 .section-title {
