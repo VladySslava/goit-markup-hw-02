@@ -6,7 +6,8 @@
     --accent-color: #2196F3;
     --main-background-color: #2F303A;
     --second-background-color: #E5E5E5;
-    --third-background-color:#F5F4FA;
+    --third-background-color: #F5F4FA;
+    --four-bcg-color: #EEEEEE;
 }
 
 body {
@@ -181,6 +182,12 @@ body {
     color: var(--main-title-color);
 }
 
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--accent-color);
+}
+
+
 .footer-contact {
     font-style: normal;
     font-size: 14px;
@@ -189,12 +196,21 @@ body {
     color: var(--secondary-whit-color);
 }
 
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent-color);
+}
+
 
 /* --------------------------PORTFOLIO------------------------------ */
 
 
 .border {
     border: none;
+}
+
+.port-all {
+    background-color: var(--four-bcg-color);
 }
 
 .port-btn {
