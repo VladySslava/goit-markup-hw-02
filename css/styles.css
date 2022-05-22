@@ -121,6 +121,7 @@ body {
     font-weight: 700;
     line-height: calc(16 / 14);
     text-transform: uppercase;
+    font-size: 14px;
     color: var(--second-title-color);
 }
 
